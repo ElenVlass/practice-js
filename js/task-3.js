@@ -25,19 +25,20 @@
 // console.log(calculateEngravingPrice('Proin sociis mus', 20));
 
 //2.3
-const findLongestWord = function (string) {
-    string = string.split(' ');
-    let longestWord = string[0];
-    for (let i = 0; i < string.length; i += i) {
-        if (string[i].length > longestWord.length) {
-           longestWord = string[i]
-       }
-    }
-    return longestWord;
-}
 
+// let string = "Bla blabla bla blab";
+// const getLongestWord = function (string) {
+//    string = string.split(' ');
+// let LongestWord = string[0]; 
+// console.log(string);
+// for (let i = 0; i < string.length; i += 1) {
+//   if (string[i].length > LongestWord.length) {
+//     LongestWord = string[i];
+//   }
+//     }; return LongestWord;
+// }
 
-console.log(findLongestWord('May the force be with you'));
+// console.log(getLongestWord(string));
 
 
 //2.4
