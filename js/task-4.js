@@ -32,3 +32,18 @@
 // console.log(checkForSpam('JavaScript weekly newsletter'));
  
 //2.6
+// let input;
+// const numbers = [];
+// let total = 0;
+// while (input !== null) {
+//     input = prompt('Enter');
+//     if (input !== null) { 
+//        let number = Number(input);
+//        if (Number.isNaN(number)) {
+//            console.log('Було введено не число, попробуйте ще раз');
+//     } else {
+//   numbers.push(number);  }}}
+// for (const number of numbers) {
+//     total += number;
+// }
+// console.log(total);

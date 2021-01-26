@@ -56,6 +56,15 @@
 //     }
 // return string;
 // }
+// ИЛИ //
+// const formatString = function (string) {
+//     if (string.length > 40) {
+//         let newString = string.split('')
+//         newString.length = 40;
+//         newString= newString.concat('...').join('')
+//         return newString } ;
+//         return string;
+//   };
 // console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
 // console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
 
